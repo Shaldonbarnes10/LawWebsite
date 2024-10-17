@@ -1,26 +1,74 @@
-
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width:device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Mastery Game</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Your Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
+        <div class="container">
+            <h1>Law Mastery</h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#start" class="btn">Get Started</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <section class="profile">
-            <div class="photo"><img src="pic.jpeg" alt="My Photo"></div>
-            <div class="bio">
-                <h2>About Me:</h2>
-                <p>A brief description of myself here. Showing my skills and experiences</p>
+        <section class="hero">
+            <div class="overlay">
+                <div class="container">
+                    <h2>Learn Law the Fun Way!</h2>
+                    <p>Engage with interactive lessons and quizzes to master legal concepts.</p>
+                    <a href="#start" class="btn">Start Learning</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Game Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h3>📚 Interactive Lessons</h3>
+                        <p>Engage with fun lessons that make learning law exciting.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>📝 Quizzes and Challenges</h3>
+                        <p>Test your knowledge with quizzes that adapt to your skill level.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>🏆 Rewards and Progress</h3>
+                        <p>Earn rewards and track your progress as you learn.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are a team of law enthusiasts dedicated to making legal education accessible and enjoyable for everyone. Join us on this exciting journey to master the law!</p>
             </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Shaldon Barnes!! Website by Shaldon</p>
+        <div class="container">
+            <p>&copy; 2024 Law Mastery. All Rights Reserved.</p>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

@@ -142,6 +142,7 @@ video{
     }
 }
 
+
 .social-icons{
     margin: 20px 0;
 }
@@ -158,6 +159,20 @@ video{
     padding: 20px;
     background-color: #7c24e8;
     color: white;
+}
+@media only screen and (max-width:576px) and (min-width:0px){
+        .social-icons{
+            width: 141px;
+
+        }
+        .social-icons a{
+            padding: 10px;
+            width: 25px;
+            height: 25px;
+        }
+        .container{
+            min-height: 500px
+        }
 }
 .social-icons a:hover{
     background-color: #00BFFF; 
